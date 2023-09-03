@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pulse_db',
+        'NAME': 'catalog_db',
         'USER': 'postgres',
         'PASSWORD': 'TranQuillita10',
     }
