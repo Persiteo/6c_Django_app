@@ -11,5 +11,5 @@ def contacts(request):
         phone = request.POST.get('phone')
         message = request.POST.get('message')
         with open('log.txt', 'a') as f:
-            f.writelines(f'{name} Написал: {message} (Телефон для связи: {phone})/')
+            f.writelines(f'{name} Написал(-а): {message} (Телефон для связи: {phone})/')
     return render(request, 'catalog/contacts.html')
